@@ -1,0 +1,123 @@
+ /* Pc */
+ @media (min-width: 1024px){
+    #header .menu-mobile-button{
+        display: none;
+    }
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    #header .menu-mobile-button{
+        display: none;
+    }
+    .social-list{
+        font-size: 48px;
+    }
+    .copyright{
+        font-size: 26px;
+    }
+}
+
+/* tablet and mobile */
+@media (max-width:1023px){
+    #nav .subnav a{
+        padding: 5px 12px;
+    }
+    .infor-contact i{
+        line-height: 2;
+    }
+    .fill-name-email input{
+        padding: 12px;
+        font-size: 16px;
+    }
+    .fill-message input{
+        padding: 12px;
+        font-size: 16px;
+    }
+    
+    .social-list a{
+        margin: 0 10px;
+    }
+    
+    .copyright a{
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+/* mobile  */
+@media (max-width: 740px){
+    #header{
+        overflow: hidden;
+    }
+    #nav{
+        /* dùng display block để khu vực bấm được trải dài theo khối ngang */
+        display: block;
+    }  
+
+    /* gán thuộc tính position để cài đặt vị trí cái menu mobile  */
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav li a{
+        padding: 1px 24px;
+    }
+
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 40px;
+    }
+    #nav > li{
+        display: block;
+    }
+
+    #nav li a{
+        display: block;
+    }
+
+    #nav li:first-child a{
+        display: inline-block;
+    }
+    
+    #header .search-btn{
+        display: none;
+    }
+
+    #content .content-section{
+        padding-bottom: 64px;
+    }
+    #content .member-item{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .place-item{
+        width: 100%;
+        padding: 0px 8px 16px 8px;
+    }
+
+    #content .tour-content{
+        padding-bottom: 48px;
+    }
+
+    .s-full-width,
+    .s-col-full{
+        width: 100%!important;
+    }
+
+    .fill-name-email input{
+        width: 100%;
+        margin-top: 8px;
+        
+    }
+    #contact{
+        padding: 64px 0 64px 0
+    }
+    .social-list{
+        font-size: 32px;
+    }
+    .copyright{
+        font-size: 18px;
+    }
+}
